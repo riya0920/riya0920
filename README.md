@@ -30,17 +30,17 @@ MS Computer Science, Stevens Institute of Technology (May 2026). Currently Data 
 
 ---
 
-### Domain portfolios
+### Also on here
 
-Forty-five further repositories, nine per domain. Each was built to its differentiator first — the machinery a screener stops for — then extended by closing the worst gap its own README named. No project claims a number it did not measure, and every README states what is **not** built rather than leaving it to be discovered.
+Five sets of nine projects — systems, manufacturing, healthcare, finance, retail. Each states what it does **not** do, and none quotes a number it did not measure.
 
-| Domain | A few of them |
+| | |
 |---|---|
-| **Systems / infra** | [job-queue-guarantees](https://github.com/riya0920/job-queue-guarantees) — crash storm, 0 lost, 0 double-effects · [streaming-quality-pipeline](https://github.com/riya0920/streaming-quality-pipeline) — exactly-once over at-least-once · [recsys-serving-platform](https://github.com/riya0920/recsys-serving-platform) — 436 RPS at 73.6 ms p99, degradable model path |
-| **Manufacturing** | [plant-oee-platform](https://github.com/riya0920/plant-oee-platform) — OPC-UA to OEE, waterfall reconciling to 5.8e-11 s · [spc-analytics-platform](https://github.com/riya0920/spc-analytics-platform) — ARL bake-off at calibrated ARL0 · [visual-inspection-line-economics](https://github.com/riya0920/visual-inspection-line-economics) — PPV 0.107 at real prevalence vs 0.960 balanced |
-| **Healthcare** | [clinical-nlp-extraction](https://github.com/riya0920/clinical-nlp-extraction) — ConText assertion layer, gold set scored once · [imaging-shortcut-audit](https://github.com/riya0920/imaging-shortcut-audit) — planted confounds recovered three ways · [hl7-fhir-interop](https://github.com/riya0920/hl7-fhir-interop) — HL7 v2 → FHIR R4 over real MLLP |
-| **Finance** | [walk-forward-backtest-engine](https://github.com/riya0920/walk-forward-backtest-engine) — Reality Check + SPA, vectorbt cross-check · [governed-fraud-detection](https://github.com/riya0920/governed-fraud-detection) — retraining pipeline that stops at a human · [double-entry-ledger-core](https://github.com/riya0920/double-entry-ledger-core) |
-| **Retail** | [product-search-relevance](https://github.com/riya0920/product-search-relevance) — segmented NDCG, LTR scored per millisecond · [marketplace-experimentation](https://github.com/riya0920/marketplace-experimentation) — switchback designs priced on bias and variance · [basket-completion-substitution](https://github.com/riya0920/basket-completion-substitution) |
+| **Systems** | [job-queue-guarantees](https://github.com/riya0920/job-queue-guarantees) — a crash storm with 0 lost jobs and 0 double-effects · [recsys-serving-platform](https://github.com/riya0920/recsys-serving-platform) — 436 RPS at 73.6 ms p99, model path designed to be killed |
+| **Manufacturing** | [visual-inspection-line-economics](https://github.com/riya0920/visual-inspection-line-economics) — PPV 0.107 at real prevalence against 0.960 balanced, plus an unseen-defect experiment written up as the failure it was · [spc-analytics-platform](https://github.com/riya0920/spc-analytics-platform) — control rules priced on measured false-alarm cost |
+| **Healthcare** | [clinical-nlp-extraction](https://github.com/riya0920/clinical-nlp-extraction) — an assertion layer that never turns family history into a patient condition · [imaging-shortcut-audit](https://github.com/riya0920/imaging-shortcut-audit) — planted confounds recovered three ways |
+| **Finance** | [walk-forward-backtest-engine](https://github.com/riya0920/walk-forward-backtest-engine) — Reality Check + SPA; the vectorbt cross-check found three defects in my own engine · [governed-fraud-detection](https://github.com/riya0920/governed-fraud-detection) — a retraining pipeline that stops at a human |
+| **Retail** | [product-search-relevance](https://github.com/riya0920/product-search-relevance) — segmented NDCG against BM25, re-ranker scored in NDCG-per-millisecond · [marketplace-experimentation](https://github.com/riya0920/marketplace-experimentation) — switchback designs priced on bias and variance |
 
 ---
 
