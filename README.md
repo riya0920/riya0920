@@ -52,4 +52,4 @@ The headline pruning result is currently in-sample: greedy selection and reporti
 
 ### Reach me
 
-[LinkedIn](https://linkedin.com/in/riya-soni-ml-engineer) · [Email](mailto:riyaasoni2001@gmail.com) · Hoboken, NJ
+[LinkedIn](https://linkedin.com/in/riya-soni-ml-engineer) · [Email](mailto:riyaasoni2001@gmail.com) · New York, NY
