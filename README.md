@@ -30,20 +30,6 @@ MS Computer Science, Stevens Institute of Technology (May 2026). Currently Data 
 
 ---
 
-### Also on here
-
-Five sets of nine projects — systems, manufacturing, healthcare, finance, retail. Each states what it does **not** do, and none quotes a number it did not measure.
-
-| | |
-|---|---|
-| **Systems** | [job-queue-guarantees](https://github.com/riya0920/job-queue-guarantees) — a crash storm with 0 lost jobs and 0 double-effects · [recsys-serving-platform](https://github.com/riya0920/recsys-serving-platform) — 436 RPS at 73.6 ms p99, model path designed to be killed |
-| **Manufacturing** | [visual-inspection-line-economics](https://github.com/riya0920/visual-inspection-line-economics) — PPV 0.107 at real prevalence against 0.960 balanced, plus an unseen-defect experiment written up as the failure it was · [spc-analytics-platform](https://github.com/riya0920/spc-analytics-platform) — control rules priced on measured false-alarm cost |
-| **Healthcare** | [clinical-nlp-extraction](https://github.com/riya0920/clinical-nlp-extraction) — an assertion layer that never turns family history into a patient condition · [imaging-shortcut-audit](https://github.com/riya0920/imaging-shortcut-audit) — planted confounds recovered three ways |
-| **Finance** | [walk-forward-backtest-engine](https://github.com/riya0920/walk-forward-backtest-engine) — Reality Check + SPA; the vectorbt cross-check found three defects in my own engine · [governed-fraud-detection](https://github.com/riya0920/governed-fraud-detection) — a retraining pipeline that stops at a human |
-| **Retail** | [product-search-relevance](https://github.com/riya0920/product-search-relevance) — segmented NDCG against BM25, re-ranker scored in NDCG-per-millisecond · [marketplace-experimentation](https://github.com/riya0920/marketplace-experimentation) — switchback designs priced on bias and variance |
-
----
-
 ### Research
 
 Mechanistic interpretability of decoder-only transformers, advised by Matthew Finch (Senior ML Engineer, Bloomberg LP). I measure polysemanticity across GPT-2 and Pythia attention heads and prune parasitic SVD components post-hoc, with no retraining — eleven notebooks, each standalone.
