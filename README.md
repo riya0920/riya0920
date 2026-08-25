@@ -22,9 +22,9 @@ Whisper-Large on vLLM, autoscaled on Kubernetes by *queue depth* rather than GPU
 Hybrid retrieval (BM25 + dense, RRF fusion) written without a framework, a hand-authored golden set, and a CI gate that blocks a retrieval regression, plus an inverted CI step that fails the build if the gate itself stops catching a planted regression. `docs/LIMITATIONS.md` states in writing that this project's own headline comparison sits inside the noise band.
 [**Evaluation results**](https://riya0920.github.io/rag-eval-harness/) · `Python` `BM25` `RRF` `GitHub Actions`
 
-**[earnings-intelligence-platform](https://github.com/riya0920/earnings-intelligence-platform)**
-Self-evaluating RAG over SEC 10-K filings: 12 configurations (3 chunking strategies x 4 retrieval strategies) scored with RAGAS and tracked end to end in MLflow. Quantitative questions skip the prose path entirely and route through a Hunter → Forensic Auditor → Arbiter chain that returns structured numbers with paragraph-level provenance, because a confident LLM reading a forecast figure as an actual is the failure mode that matters in financial NLP.
-`ChromaDB` `sentence-transformers` `RAGAS` `MLflow` `LangGraph`
+**[profiling-training-study](https://github.com/riya0920/profiling-training-study)**
+An optimisation ladder where every rung changes exactly one thing and the profile picks the order, not a blog post. Run on CPU, then on a rented NVIDIA L4: **one rung (`workers`) is +298% and the eight rungs after it sum to +17%**, while data-wait never falls below 79%, so the GPU stays starved through every kernel-level tweak. bf16 flips sign between the two machines and is still reported as unestablished, because the spread is 18% wide. Negative results stay in the table.
+[**Measured results**](https://riya0920.github.io/profiling-training-study/) · `PyTorch` `DDP` `CUDA` `torch.compile`
 
 **[self-healing-rl-pipeline](https://github.com/riya0920/self-healing-rl-pipeline)**
 Four agents over MCP and A2A (Monitor, Diagnostics, Repair, Verification) that detect drift in a DQN recommender, diagnose the root cause, retrain the policy, and verify the fix with no human in the loop.
