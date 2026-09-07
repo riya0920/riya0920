@@ -4,7 +4,7 @@ ML/AI engineer. I build inference systems that hold a latency budget under real 
 
 MS Computer Science, Stevens Institute of Technology (May 2026). Currently Data Analyst at Giraffe Media Group, building SMS analytics infrastructure on Redshift and shipping internal AI tooling.
 
-**Open to ML/AI Engineer roles starting May 2026.** New York metro.
+**Open to ML/AI Engineer roles.** New York metro.
 
 ---
 
