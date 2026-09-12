@@ -134,7 +134,7 @@ A dbt banking mart with a bitemporal dimension and a bitemporal fact, so you can
 
 **RSNA knee MRI** (Kaggle, deadline October 2026). Working the constraints more than the leaderboard: the test set ships no reports, and there are 58 gold studies, which is too few to select models on cleanly.
 
-**Mechanistic interpretability of GPT-2 and Pythia**, advised by Matthew Finch (Senior ML Engineer, Bloomberg LP). Measuring polysemanticity across attention heads and pruning parasitic SVD components post-hoc with no retraining. The headline pruning result is still in-sample: greedy selection and reporting run over the same corpus and the effect sizes sit near the per-document noise floor. Held-out validation is the next step, and I would rather write that than quote the number.
+**Mechanistic interpretability of GPT-2 and Pythia**, advised by Senior ML Engineer, Bloomberg LP. Measuring polysemanticity across attention heads and pruning parasitic SVD components post-hoc with no retraining. The headline pruning result is still in-sample: greedy selection and reporting run over the same corpus and the effect sizes sit near the per-document noise floor. Held-out validation is the next step, and I would rather write that than quote the number.
 
 ---
 
