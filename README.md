@@ -4,7 +4,7 @@ I build inference systems that have to hold a latency budget under real load, an
 
 MS Computer Science, Stevens Institute of Technology, 2026. Currently Data Analyst at Giraffe Media Group, building SMS analytics on Redshift and shipping internal AI tooling.
 
-**Available immediately for ML/AI Engineer, Data Science, and Software Engineering roles.** US based, open to remote.
+**Available immediately for ML/AI Engineer, Data Science, and Software Engineering roles.**
 
 Jump to: [Serving and inference](#serving-and-inference) · [LLM systems and agents](#llm-systems-and-agents) · [Data engineering and quality](#data-engineering-and-quality) · [Applied ML and decision systems](#applied-ml-and-decision-systems) · [Healthcare data](#healthcare-data) · [Financial systems](#financial-systems)
 
@@ -146,4 +146,4 @@ A dbt banking mart with a bitemporal dimension and a bitemporal fact, so you can
 
 ### Reach me
 
-[LinkedIn](https://linkedin.com/in/riya-soni-ml-engineer) · [Email](mailto:riyaasoni2001@gmail.com) · US based, open to remote
+[LinkedIn](https://linkedin.com/in/riya-soni-ml-engineer) · [Email](mailto:riyaasoni2001@gmail.com)
